@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.itm.mobile.petlover.MainPetShopActivity"
+    tools:showIn="@layout/activity_main_petshop"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/iv_mn_petshop_mkt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_banner_mkt_340_150"/>
+
+    <Button
+        android:id="@+id/mn_petshop_racao"
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/menu_margin_mn"
+        android:background="@color/colorBackgroud"
+        android:drawableLeft="@drawable/ic_mn_pet_64dp"
+        android:padding="@dimen/menu_padding"
+        android:text="@string/mn_petshop_racao"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mn_petshop_banho"
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/menu_margin_mn"
+        android:background="@color/colorBackgroud"
+        android:drawableLeft="@drawable/ic_mn_pet_64dp"
+        android:padding="@dimen/menu_padding"
+        android:text="@string/mn_petshop_banho"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mn_petshop_acessorios"
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/menu_margin_mn"
+        android:background="@color/colorBackgroud"
+        android:drawableLeft="@drawable/ic_mn_pet_64dp"
+        android:padding="@dimen/menu_padding"
+        android:text="@string/mn_petshop_acessorios"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mn_petshop_hotel"
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/menu_margin_mn"
+        android:background="@color/colorBackgroud"
+        android:drawableLeft="@drawable/ic_mn_pet_64dp"
+        android:padding="@dimen/menu_padding"
+        android:text="@string/mn_petshop_hotel"
+        android:textStyle="bold" />
+</LinearLayout>

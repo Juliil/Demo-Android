@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9c2caf</color>
+    <color name="colorPrimaryDark">#9c2caf</color>
+    <color name="colorAccent">#ff408b</color>
+
+    <color name="textColorPrimary">#000000</color>
+    <color name="colorButtonDark">@color/colorPrimaryDark</color>
+    <color name="colorBackgroud">#dec5e9</color>
+    <color name="colorBackgroudMenu">#c5e9d4</color>
+    <color name="mn_bg_color">#cce9e7c5</color>
+    <color name="mn_bg_color_white">#dcc5e9d4</color>
+    <color name="mn_bg_color_transparente">#00ffffff</color>
+
+    <color name="colorPrimaryLight">#84FF19</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDivider">#2FE897</color>
+    <color name="colorBorder">#a7a4a4</color>
+    <color name="colorExtra">#fffac1</color>
+
+    <color name="tab_text_selected">#ffcd29</color>
+    <color name="tab_indicator">@color/colorPrimaryDark</color>
+    <color name="tab_text">#ffffff</color>
+    <color name="red">#fd0800</color>
+    <color name="foreground_material_light">#791ca5</color>
+    <color name="primary_text_default_material_light">#ec000000</color>
+</resources>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itm.mobile.petlover.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_main_petfeira_venda"
+        style="?android:textAppearanceLargeInverse"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="@string/lbl_tv_main_petfeira_venda"
+        android:visibility="visible"/>
+    <ProgressBar
+        android:id="@+id/pb_main_petfeira_venda"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+    <GridView
+        android:id="@+id/gv_main_petfeira_venda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:numColumns="auto_fit"
+        android:padding="4dp"
+        android:verticalSpacing="4dp" />
+    <TextView
+        android:id="@+id/tv_main_petfeira_doacao"
+        style="?android:textAppearanceLargeInverse"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/lbl_tv_main_petfeira_doacao"
+        android:visibility="visible"/>
+    <ProgressBar
+        android:id="@+id/pb_main_petfeira_doacao"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+    <GridView
+        android:id="@+id/gv_main_petfeira_doacao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:numColumns="auto_fit"
+        android:padding="4dp"
+        android:verticalSpacing="4dp" />
+</LinearLayout>

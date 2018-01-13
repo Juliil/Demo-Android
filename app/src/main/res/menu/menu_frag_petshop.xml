@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itm.mobile.petlover.MainActivity">
+    <item
+        android:id="@+id/mn_action_home"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/lbl_tit_frag_petshop_home" />
+    <item
+        android:id="@+id/mn_action_petshop"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/lbl_tit_frag_petshop_shopping" />
+    <item
+        android:id="@+id/mn_action_petsaude"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/lbl_tit_frag_petsaude" />
+</menu>

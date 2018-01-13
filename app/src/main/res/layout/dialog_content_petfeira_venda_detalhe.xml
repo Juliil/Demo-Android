@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_content_petprocurase_achados"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView android:id="@+id/item_petfeira_venda_detalhe_image"
+                android:layout_width="240dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_logo_achadoseperdidos" >
+            </ImageView>
+
+            <TextView android:id="@+id/item_petfeira_venda_detalhe_descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                style="?android:textAppearanceLarge"
+                android:text="@string/lbl_item_petfeira_detalhe_grid_descricao">
+            </TextView>
+            <TextView android:id="@+id/item_petfeira_venda_detalhe_dt_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                style="?android:textAppearance"
+                android:text="@string/lbl_item_petfeira_venda_detalhe_dt_reg">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_especie" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_especie"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_especie" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_raca" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_raca"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_raca" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_porte" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_porte"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_porte" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_cor" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_cor"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_cor" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_dt_nasc" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_dt_nasc"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_dt_nasc" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_sexo" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_sexo"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_sexo" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_caracteristicas" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_caracteristicas"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_caracteristicas" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_responsavel" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_responsavel"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_responsavel" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:paddingBottom="4dp"
+                    android:background="@color/colorButtonDark"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorBackgroud"
+                        android:text="@string/lbl_tit_item_petfeira_venda_detalhe_pet_contato" />
+
+                    <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_pet_contato"
+                        style="?android:textAppearance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:background="@android:color/white"
+                        android:gravity="fill_horizontal"
+                        android:text="@string/ed_item_petfeira_venda_detalhe_pet_contato" />
+                </LinearLayout>
+
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?android:textAppearance"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center_vertical"
+                    android:background="@color/colorBackgroud"
+                    android:text="@string/lbl_tit_item_petfeira_venda_detalhe_detalhes" />
+
+                <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_detalhes"
+                    style="?android:textAppearance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:gravity="center"
+                    android:text="@string/ed_item_petfeira_venda_detalhe_detalhes" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?android:textAppearance"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center_vertical"
+                    android:background="@color/colorBackgroud"
+                    android:text="@string/lbl_tit_item_petfeira_venda_detalhe_condicoes" />
+
+                <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_condicoes"
+                    style="?android:textAppearance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:gravity="center"
+                    android:text="@string/ed_item_petfeira_venda_detalhe_condicoes" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_item_petfeira_venda_detalhe_preco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?android:textAppearance"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center_vertical"
+                    android:background="@color/colorBackgroud"
+                    android:text="@string/lbl_tit_item_petfeira_venda_detalhe_preco" />
+
+                <TextView android:id="@+id/ed_item_petfeira_venda_detalhe_preco"
+                    style="?android:textAppearanceLarge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:gravity="center"
+                    android:text="@string/ed_item_petfeira_venda_detalhe_preco" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_dialog_petfeira_voltar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:text="@string/lbl_btn_voltar" />
+                <Button
+                    android:id="@+id/btn_dialog_petfeira_reservar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_reservar" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

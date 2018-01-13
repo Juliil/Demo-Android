@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itm.mobile.petlover.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_main_petprocurase_achados"
+        style="?android:textAppearanceLargeInverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:text="@string/lbl_tv_main_petprocurase_achados"
+        android:visibility="visible"/>
+    <ProgressBar
+        android:id="@+id/pb_main_petprocurase_achados"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <GridView
+        android:id="@+id/gv_main_petprocurase_achados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="auto_fit"
+        android:padding="4dp"
+        android:verticalSpacing="4dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_petprocurase_achados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/fab_margin"
+            android:onClick=""
+            android:src="@android:drawable/ic_menu_search" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_main_petprocurase_perdidos"
+        style="?android:textAppearanceLargeInverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="@string/lbl_tv_main_petprocurase_perdidos"
+        android:visibility="visible"/>
+    <ProgressBar
+        android:id="@+id/pb_main_petprocurase_perdidos"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <GridView
+            android:id="@+id/gv_main_petprocurase_perdidos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="150dp"
+            android:gravity="center"
+            android:horizontalSpacing="4dp"
+            android:numColumns="auto_fit"
+            android:padding="4dp"
+            android:verticalSpacing="4dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_petprocurase_perdidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_menu_search" />
+    </RelativeLayout>
+</LinearLayout>
+

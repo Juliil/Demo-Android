@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">PetShow</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_network_title">Configurações de Rede</string>
+
+    <string name="pref_title_network_config">Habilitar Configuração de Rede</string>
+    <string name="pref_description_network_config">Configurar ambiente para acesso ao servidor central
+    </string>
+
+    <string name="pref_title_network_server_addr">URL do Servidor CondoApp</string>
+    <string name="pref_default_network_server_addr">http://192.168.1.200/</string>
+
+    <string name="pref_title_image_url_addr">URL das Imagens CondoApp</string>
+    <string name="pref_default_image_url_addr">http://192.168.1.200/</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- End Strings related to Settings -->
+    <string name="title_activity_splash">PetShow</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_sair_app">Deseja sair do aplicativo?</string>
+    <string name="action_exit">Sair</string>
+    <string name="title_activity_login">"Login "</string>
+    <string name="title_activity_new_user">Novo Usuário</string>
+    <string name="title_activity_new_user_validate">Validação de Usuário</string>
+    <string name="lbl_btn_login">Efetuar Login</string>
+    <string name="hint_et_login_email">Informe o seu Email</string>
+    <string name="hint_et_login_passwd">Digite sua Senha</string>
+    <string name="error_invalid_email">Email Invalido!</string>
+    <string name="error_network_error">Sem Conexão de Rede!!!</string>
+    <string name="lbl_progress">Processando...</string>
+    <string name="error_login">Email ou Senha Invalida!</string>
+    <string name="error_required_field">Informação Incorreta</string>
+    // BASE ITM MOBILE STRINGS
+    <string name="title_activity_main">PetShow</string>
+    <string name="mn_feira_venda">Venda</string>
+    <string name="mn_feira_adocao">Adoção</string>
+    <string name="mn_petsaude_dicas">Dicas</string>
+    <string name="mn_petsaude_carteirinha">Carteira de Vacinação</string>
+    <string name="mn_petsaude_clinicas">Guia de Clínicas</string>
+    <string name="mn_petsaude_veterinarios">Guia de Veterinários</string>
+    <string name="lbl_tv_main_petprocurase">Achados</string>
+    <string name="lbl_tv_main_petprocurase_achados">ACHADOS</string>
+    <string name="lbl_tv_main_petprocurase_perdidos">PERDIDOS</string>
+    <string name="lbl_tit_frag_petshop_agenda">Agenda</string>
+    <string name="lbl_tit_frag_petshop_taxidog">TaxiDog</string>
+    <string name="lbl_tit_frag_petshop_racao">Ração</string>
+    <string name="mn_petshop_racao">Ração</string>
+    <string name="mn_petshop_banho">Banho e Tosa</string>
+    <string name="mn_petshop_acessorios">Acessórios</string>
+    <string name="mn_petshop_hotel">PetHotel e PetSiter</string>
+    <string name="lbl_item_petprocurase_perdidos_grid_descricao">Desaparecido</string>
+    <string name="lbl_item_petprocurase_perdidos_grid_dta_perda">Desde: 99/99/9999</string>
+    <string name="lbl_item_petprocurase_perdidos_grid_nome">Nome do Pet</string>
+    <string name="lbl_item_petprocurase_achados_grid_descricao">ENCONTRADO</string>
+    <string name="lbl_item_petprocurase_achados_grid_local">Próximo a Av das Torres</string>
+    <string name="lbl_item_petprocurase_achados_grid_dta_achado">Em: 99/99/2017</string>
+    <string name="lbl_item_petbook_avatar">Avatar do Pet</string>
+    <string name="tv_item_petbook_nome">Nome do Pet</string>
+    <string name="tv_item_petbook_date">99/99/2017 00:00hs</string>
+    <string name="tv_item_petbook_msg_titulo">Título da Mensagem...</string>
+    <string name="tv_item_petbook_msg_texto">Pqwoie wqoie qw oieq owie qwoieu qowie uqwoie qowie oqwi euqowi ueoqwi hroqwihroqwirhqowiehoqwiejoqwiejqwoiejqwoiejqwoiej qwoiej qowiej qwoiejqoe.</string>
+    <string name="lbl_tit_frag_petshop_home">Home</string>
+    <string name="lbl_tit_frag_petshop_shopping">PetShop</string>
+    <string name="lbl_tit_frag_petsaude">PetSaúde</string>
+    <string name="title_activity_main_petshop">PetShop</string>
+    <string name="title_activity_main_petsaude">PetSaúde</string>
+    <string name="lbl_tv_main_petfeira_venda">VENDA</string>
+    <string name="lbl_tv_main_petfeira_doacao">DOAÇÃO</string>
+    <string name="tv_nav_header_user_name">Nome do Usuário</string>
+    <string name="tv_nav_header_user_email">email@email.com</string>
+    <string name="lbl_item_petprocurase_perdidos_grid_local">Ultimo Local Conhecido</string>
+    <string name="lbl_item_petfeira_venda_grid_descricao">Macho Raça Poodle</string>
+    <string name="lbl_item_petfeira_venda_grid_valor">1.500,00</string>
+    <string name="lbl_item_petfeira_doacao_grid_descricao">Descrição de Item para Doação</string>
+    <string name="lbl_tit_dialog_petprocurase_dt_fato">Data do Fato:</string>
+    <string name="ed_dialog_petprocurase_dt_fato">Informe a data da pesquisa</string>
+    <string name="lbl_tit_dialog_petprocurase_local">Local do Fato:</string>
+    <string name="ed_dialog_petprocurase_local">Informe o local a ser pesquisado</string>
+    <string name="lbl_tit_dialog_petprocurase_raca">Raça do Animal:</string>
+    <string name="ed_dialog_petprocurase_raca">Raça a ser pesquisado</string>
+    <string name="lbl_tit_dialog_petprocurase_porte">Porte do Animal:</string>
+    <string name="ed_dialog_petprocurase_porte">Porte a ser pesquisado</string>
+    <string name="lbl_tit_dialog_petprocurase_especie">Especie do Animal:</string>
+    <string name="ed_dialog_petprocurase_especie">Especie a ser pesquisada</string>
+    <string name="lbl_tit_dialog_petprocurase_sexo">Sexo do Animal:</string>
+    <string name="ed_dialog_petprocurase_sexo">Sexo a ser pesquisado</string>
+    <string name="lbl_btn_pesquisar">Pesquisar</string>
+    <string name="lbl_tv_tit_dialog_content_petprocurase">Informe um ou mais quesito de pesquisa</string>
+    <string name="lbl_tit_dialog_content_pesquisa_achados">Filtro de Pesquisa de Achados</string>
+    <string name="lbl_btn_cancelar">Cancelar</string>
+    <string name="lbl_tit_dialog_content_pesquisa_perdidos">Filtro de Pesquisa de Perdidos</string>
+    <string name="lbl_item_petfeira_detalhe_grid_descricao">Macho Raça Poodle</string>
+    <string name="lbl_item_petfeira_venda_detalhe_dt_reg">00/00/0000 00:00h</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_condicoes">Condições:</string>
+    <string name="ed_item_petfeira_venda_detalhe_condicoes">Descrição das condições da venda... forma de pagamento, se aceita cartão, etc.</string>
+    <string name="ed_item_petfeira_venda_detalhe_detalhes">Descrição do item, descrever qual o comportamento do animal, quais os principais cuidados, etc.</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_detalhes">Detalhes:</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_raca">Raça:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_raca">Raça do Animal</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_especie">Especie:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_especie">Canina (Cachorro)</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_porte">Porte:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_porte">Pequeno, Medio, Grande</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_cor">Preto e Branco</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_cor">Cor:</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_dt_nasc">Data Nasc/Resgate:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_dt_nasc">00/00/2017</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_sexo">Sexo:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_sexo">Macho/Femea</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_caracteristicas">Características:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_caracteristicas">Caracteristicas da Raça</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_responsavel">Responsável:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_responsavel">Nome do Responsável pelo Pet</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_pet_contato">Contato:</string>
+    <string name="ed_item_petfeira_venda_detalhe_pet_contato">Contato do Responsavel</string>
+    <string name="lbl_tit_item_petfeira_venda_detalhe_preco">Preço:</string>
+    <string name="ed_item_petfeira_venda_detalhe_preco">R$ 1.500,00</string>
+    <string name="lbl_btn_reservar">Reservar</string>
+    <string name="lbl_btn_voltar">Voltar</string>
+    <string name="dialog_tit_petfeira_venda">Venda de Animais</string>
+    <string name="dialog_tit_petfeira_adocao">Adoção de Animais</string>
+    <string name="tv_item_petbook_detalhe_likes">10 likes</string>
+    <string name="tv_item_petbook_detalhe_views">10 Views</string>
+    <string name="tv_item_petbook_msg_dt_reg">00/00/2017 00:00h</string>
+    <string name="lbl_item_petprocurase_achados_detalhe_dt_reg">00/00/0000 00:00h</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_especie">Especie:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_especie">Canina (Cachorro)</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_raca">Raça:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_raca">Raça do Pet</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_porte">Porte:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_porte">Pequeno/Medio/Grande</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_cor">Cor:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_cor">Branco e Preto</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_dt_nasc">Dt.Nasc:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_dt_nasc">00/00/0000 00:00h</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_sexo">Sexo:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_sexo">Masc / Fem</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_caracteristicas">Características:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_caracteristicas">Caracteristicas para Identificação do Pet</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_responsavel">Responsável:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_responsavel">Nome do Responsável</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_pet_contato">Contato:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_pet_contato">(92) 9 8159-7235</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_local">Local do Fato:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_local">Proximidades da Av das Torres</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_situacao">Situação:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_situacao">Resolvido</string>
+    <string name="dialog_tit_petprocurase_achados">Detalhe do Anuncio de Achado</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_dt_fato">Encontrado em</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_dt_reg">Dt Reg:</string>
+    <string name="ed_item_petprocurase_achados_detalhe_dt_reg">00/00/0000 00:00h</string>
+    <string name="achados_situacao_pendente">Pendente</string>
+    <string name="achados_situacao_resgatado">Resgatado</string>
+    <string name="dialog_tit_petprocurase_perdidos">Detalhe do Anuncio de Perdidos</string>
+    <string name="lbl_tit_item_petprocurase_achados_detalhe_texto">Desaparecido / Encontrado</string>
+    <string name="item_petprocurase_achados_detalhe_texto">Encontrado em</string>
+    <string name="item_petprocurase_perdido_detalhe_texto">Desaparecido desde</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_storage_network_settings"
+        android:title="@string/pref_network_title"
+        android:capitalize="words">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_switch_network_config"
+            android:summary="@string/pref_description_network_config"
+            android:title="@string/pref_title_network_config" />
+
+         <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_network_server_addr"
+             android:dependency="pref_switch_network_config"
+            android:inputType="textCapWords"
+            android:key="pref_network_server_addr"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_network_server_addr" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_image_url_addr"
+            android:dependency="pref_switch_network_config"
+            android:inputType="textCapWords"
+            android:key="pref_images_server_addr"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_image_url_addr" />
+
+        <ListPreference
+            android:defaultValue="-1"
+            android:entries="@array/pref_example_list_titles"
+            android:entryValues="@array/pref_example_list_values"
+            android:key="example_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_add_friends_to_messages" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

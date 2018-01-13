@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="PetFeira">
+        <menu>
+            <item
+                android:id="@+id/nav_novo_anuncio"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Novo Anuncio" />
+            <item
+                android:id="@+id/nav_anuncio_list"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Lista de Anuncios" />
+        </menu>
+    </item>
+
+    <item android:title="Procura-se">
+        <menu>
+            <item
+                android:id="@+id/nav_novo_procurase"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Novo Anuncio" />
+            <item
+                android:id="@+id/nav_procurase_list"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Lista de Anuncios" />
+        </menu>
+    </item>
+
+</menu>
